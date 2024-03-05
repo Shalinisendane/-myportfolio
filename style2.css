@@ -1,0 +1,179 @@
+@media (max-width: 768px) {
+    .firstsection, .aboutme, .secondsection, .thirdsection {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .leftsection, .rightsection, .abimg, .ab1, .grid-container {
+      margin-left: 0;
+      width: 90%;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .abimg img, .rightsection img {
+      margin: 0 auto;
+      display: block;
+    }
+  
+    .grid-container {
+      grid-template-columns: 1fr;
+      padding: 10px;
+    }
+  
+    header nav a {
+      font-size: 16px;
+      margin: 5px;
+      padding: 8px;
+    }
+  
+    .icon a {
+      margin: 15px 10px;
+    }
+  
+    .btn-box {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+  
+   /*For mobile devices*/
+  @media (max-width: 480px) {
+    header {
+      flex-direction: column;
+    }
+  
+    header nav a {
+      padding: 5px;
+      font-size: 14px;
+    }
+  
+    .dropdown-content {
+      right: 0;
+    }
+  
+    .leftsection, .rightsection, .abimg, .ab1 {
+      width: 100%;
+    
+    }
+  
+    .icon a {
+      margin: 10px 5px;
+    }
+  
+    .btn-box {
+      font-size: 12px;
+      padding: 8px 16px;
+    }
+  
+    .box, .box2 {
+      width: 100%;
+    
+      margin: 20px auto;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .ab1 h2, .box h2 {
+      font-size: 2rem;
+    }
+  
+    .slide img {
+      margin-left: 0;
+    }
+  
+    .slideshow-wrapper, .control {
+      width: 100%;
+      height: auto;
+      height: 100%;
+    }
+  
+    .play-pause {
+      margin-top: 20%;
+    }
+  }
+  
+  
+  /* Very small devices (smaller phones)*/
+  @media (max-width: 320px) {
+    header nav a {
+      font-size: 12px;
+    }
+  
+    .icon a {
+      width: 30px;
+      height: 30px;
+      font-size: 30px;
+    }
+  
+    .btn-box {
+      font-size: 10px;
+      padding: 6px 12px;
+    }
+  }
+  /* Base styles */
+/* Ensure your base styles are mobile-friendly as much as possible */
+
+/* Media Query for devices with width 375px to 667px */
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  body {
+      font-size: 14px; /* Adjust the base font size */
+  }
+
+  .logo {
+      font-size: 24px; /* Smaller logo for smaller screens */
+  }
+
+  nav a {
+      font-size: 12px; /* Smaller font size for navigation links */
+      padding: 5px; /* Reduce padding */
+  }
+
+  .firstsection, .aboutme, .secondsection, .thirdsection {
+      padding: 10px; /* Adjust padding for sections */
+  }
+
+  .leftsection, .rightsection, .ab1, .box, .box2 {
+      /* Adjust the layout for single column display or other adjustments */
+      width: 100%; /* Full width */
+      text-align: center; /* Center content */
+      padding: 10px 0; /* Adjust padding */
+  }
+
+  .grid-container {
+      grid-template-columns: 1fr; /* Stack elements vertically */
+  }
+
+  .icon a {
+      width: 30px; /* Smaller icons */
+      height: 30px;
+      font-size: 20px; /* Adjust icon size */
+  }
+
+  .btn-box {
+      font-size: 14px; /* Adjust button text size */
+      padding: 8px 16px; /* Adjust button padding */
+  }
+
+  .dropdown-content a {
+      font-size: 12px; /* Smaller dropdown font size */
+  }
+
+  .slideshow-wrapper, .slides, .slide {
+      height: auto; /* Adjust slideshow height */
+  }
+
+  .slide img {
+      width: 100%; /* Ensure images are responsive */
+      height: auto; /* Maintain aspect ratio */
+  }
+
+  .site-footer {
+      font-size: 12px; /* Adjust footer font size */
+  }
+
+  /* Additional specific adjustments as needed */
+}
